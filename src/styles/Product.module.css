@@ -1,0 +1,145 @@
+.wrapper-product-line {
+  border-top: 1px solid #9F9F9F;
+}
+
+.wrapper-product {
+  display: flex;
+  margin-bottom: 2%;
+
+}
+
+.wrapper-promo {
+  width: 28%;
+  margin: 3% 4% 0 0;
+}
+
+.wrapper-promo-list-card {
+  display: flex;
+  justify-content: center;
+  background-color: #88B788;
+  border-radius: 18px;
+  padding: 5%;
+  margin: 5% 0;
+}
+
+.wrapper-promo-list-card-sec {
+  display: flex;
+  justify-content: center;
+  background-color: #F5C361;
+  border-radius: 18px;
+  padding: 5%;
+  margin: 5% 0;
+}
+
+.wrapper-promo-list-card-third {
+  display: flex;
+  justify-content: center;
+  background-color: #C59378;
+  border-radius: 18px;
+  padding: 5%;
+  margin: 5% 0;
+}
+
+.btn-coupon {
+  width: 100%;
+  padding: 5%;
+  margin: 5% 0;
+  border-radius: 18px;
+  background-color: #6A4029;
+  border: #6A4029;
+  color: #ffffff;
+}
+
+.line {
+  background-color: #9F9F9F;
+  padding-left: 1px;
+  height: 130vh;
+}
+
+.wrapper-list-product {
+  margin: 3% 0% 0 4%;
+  width: 65%;
+
+}
+
+.wrapper-list-product-category {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.wrapper-list-product-category-title {
+  background-color: #ffffff;
+  border: none;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-bottom: 3%;
+
+}
+
+.wrapper-list-product-category-title:hover {
+  font-size: 20px;
+  line-height: 24px;
+  color: #6A4029;
+}
+
+.wrapper-list-product-category-title-line:hover {
+  border-bottom: 1px solid #6A4029;
+  filter: drop-shadow(0px 6px 20px rgba(106, 64, 41, 0.67));
+}
+
+.wrapper-card-menu-product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper-card-menu-product-list {
+  width: 21%;
+  background-color: #ffffff;
+  box-shadow: 1px 15px 15px rgba(120, 119, 119, 0.1);
+  border-radius: 30px;
+  padding: 3%;
+  margin: 5% 2%;
+  cursor: pointer;
+}
+
+.wrapper-card-menu-product-list:hover {
+  width: 21%;
+  background-color: #ffffff;
+  filter: drop-shadow(#7877772c 1px 15px 15px);
+  border-radius: 30px;
+  padding: 3%;
+  margin: 5% 2%;
+  cursor: pointer;
+}
+
+.wrapper-image-menu {
+  filter: drop-shadow(#d4d4d492 2px 10px 10px);
+
+}
+
+.image-menu {
+  border-radius: 50%;
+  margin-top: -50%;
+  margin-bottom: 10%;
+  width: 17vh;
+  height: 17vh;
+  object-fit: cover;
+}
+
+.card-menu-title {
+  font-size: 22px;
+  line-height: 101.34%;
+  text-align: center;
+  margin: 10% 0;
+}
+
+.card-menu-title-sub {
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  color: #6A4029;
+  margin: 10%;
+}

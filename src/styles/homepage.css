@@ -1,0 +1,358 @@
+
+/* Home */
+
+  .wrapper-bg{
+    position: relative;
+  }
+
+  .header-text-wrapper{
+    position: absolute;
+    top:25%;
+    left: 10%;
+  }
+  .main-slogan{
+    margin: 2% 0;
+    width: 50%;
+    font-size: 43px;
+    line-height: 58px;
+    color: #ffffff;
+  }
+
+  .sub-slogan{
+    margin: 2% 0;
+    width: 45%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .btn-started{
+    margin: 2% 0;
+    width: 25%;
+    border-radius: 10px;
+    padding: 1.5% 0;
+    font-size: 16px;
+    line-height: 25px;
+    background-color: #FFBA33;
+    color: #6A4029;
+    outline: none;
+    border: #FFBA33 1px solid;
+  }
+
+  /* .counts-wrapper{
+    z-index: 2;
+
+  } */
+  .counts{
+    display: flex;
+    margin-top: -5%;
+    position: relative;
+    margin-bottom: 3%;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px rgba(210, 210, 210, 0.389);
+    padding: 3% ;
+  }
+  
+  .count-staff{
+    width: 65%;
+    display: flex;
+    text-align: center;
+    padding-left: 3%;
+  }
+
+  .count-stores{
+    width: 65%;
+    display: flex;
+    text-align: center;
+  }
+
+  .count-customers{
+    width: 65%;
+    display: flex;
+    text-align: center;
+  }
+
+  .round{
+    background-color: #FFBA33;
+    padding: 4% 6%;
+    border-radius: 45px;
+  }
+
+  .icon-count{
+    font-size: 25px;
+  }
+
+  .text-count{
+    margin-left: 6%;
+    width: 50%;
+  }
+
+  .count-all{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  .name-of{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .vertikal-line{
+    background-color: #EEEFF2;
+    padding-left:2px;
+    margin-right: 8%;
+  }
+
+  .team-work{
+    display: flex;
+    justify-content: space-between;
+    margin: 9% 0 5%;
+  }
+
+  .team-work-left{
+    width: 45%;
+    top: 100%;
+  }
+
+  .team-work-right{
+    padding: 3% 0;
+    width: 45%;
+  }
+
+  .team-work-right-child1{
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 5%;
+  }
+
+  .team-work-right-child2{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5%;
+  }
+  .team-work-right-child3-check{
+    display: flex;
+    margin-bottom: 1%;
+    align-items: baseline;
+  }
+  .bi-check-circle-fill{
+    color: #2FAB73;
+  }
+  .team-work-right-child3-check-text{
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 30px;
+  }
+.wrapper-background{
+  background-image: linear-gradient(#f1efef, #ffffff);
+/* padding-bottom: 1% !important; */
+}
+.favorite{
+  padding: 4% 0;
+}
+
+.favorite-header-title{
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 2%;
+}
+.favorite-header-content{
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 5%;
+}
+.favorite-menu{
+  display: flex;
+}
+.favorite-menu-list{
+  background-color: #ffffff;
+  border: 1.5px solid #dddddd;
+  border-radius: 10px;
+  width: 30%;
+  padding: 3% 4%;
+  margin: 0 2%;
+}
+.wrapper-photo-product{
+  filter: drop-shadow(#d4d4d4 10px 35px 20px);
+  margin-bottom: 30%;
+}
+.photo-product{
+  border-radius: 50%;
+  width: 100px;
+}
+.name-product{
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 15%;
+}
+.composition-list{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin-bottom: 5%;
+}
+.bi-check-lg{
+  color: #2FAB73;
+  font-size: 25px;
+}
+.composition-list-text{
+  margin-left: 6%;
+  font-size: 17px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.composition{
+  margin-bottom: 30%;
+}
+
+.total-price{
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 8%;
+}
+
+.btn-price{
+  padding: 5%;
+  width: 70%;
+  border: 2px solid #FFBA33;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6A4029;
+  background-color: #ffffff;
+}
+
+.favorite-menu-list:hover{
+  border: 2px solid #6A4029;
+  border-radius: 10px;
+}
+.btn-price:hover{
+  padding: 5%;
+  width: 70%;
+  border: 1.5px solid #FFBA33;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #FFBA33;
+}
+.our-store{
+  margin: 5% 0;
+}
+/* .our-store-title{
+  width: 50%;
+text-align: center;
+} */
+.our-store-title-head{
+  padding:0 25%;
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 2%;
+}
+.our-store-title-sub{
+  padding:0 25%;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.store-map{
+  margin: 12%;
+}
+.our-partner{
+  margin-bottom: 8%;
+}
+.our-partner-header{
+  font-size: 32px;
+  line-height: 30px;
+  margin-bottom: 5%;
+}
+.our-partner-image{
+display: flex;
+justify-content: space-between;
+}
+.review{
+  margin-bottom: 7% !important;
+  position: relative;
+
+}
+.review-title{
+  margin-bottom: 5%;
+}
+.review-header{
+  font-size: 32px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 30%;
+  margin-bottom: 2%;
+}
+.review-header-sub{
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 25%;
+
+}
+.card-review{
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+  padding: 4%;
+}
+.card-review:hover{
+  border: 1px solid #6A4029;
+  border-radius: 10px;
+  padding: 4%;
+}
+.card-review-header{
+  margin-bottom: 4%;
+}
+.detail-profile{
+  margin-left: 8%;
+}
+.review-content{
+  font-size: 16px;
+  line-height: 30px;
+}
+.check-promo-wrapper{
+  background-color: #c5bfbf;
+  position: relative;
+
+}
+.check-promo{
+  background-color: #ffffff;
+  margin-bottom:-9%;
+  border-radius: 18px;
+  padding: 4% 5% !important;
+  position: relative;
+  width: 100%;
+  box-shadow: 0px -10px 40px #dededead, 0px 12px 40px #dededead;
+  display: flex;
+  justify-content: space-between;
+}
+.check-promo-left{
+  width: 40%;
+}
+.check-promo-left-header{
+  font-size: 35px;
+  line-height: 45px;
+  margin-bottom: 5%;
+}
+.check-promo-left-sub{
+  font-size: 16px;
+  line-height: 30px;
+}
+.check-promo-right{
+    align-self: center;
+    width: 20%;
+}
+.btn-check-promo{
+  width: 100%;
+  border-radius: 10px;
+    padding: 5% 0;
+    font-size: 16px;
+    line-height: 25px;
+    background-color: #FFBA33;
+    color: #6A4029;
+    outline: none;
+    border: #FFBA33 1px solid;
+}

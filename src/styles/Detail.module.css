@@ -1,0 +1,141 @@
+.wrapper-detail-product {
+  margin-bottom: 5%;
+}
+
+.wrapper-detail-product-header {
+  margin: 3% 0 5%;
+}
+
+.name-category {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.name-product {
+  font-size: 20px;
+  line-height: 24px;
+  color: #6A4029;
+}
+
+.wrapper-detail-product-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper-detail-product-content-left {
+  width: 40%;
+
+}
+
+.wrapper-detail-product-photo-ex {
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.wrapper-detail-product-photo {
+  border-radius: 50%;
+  width: 60vh;
+  height: 60vh;
+  object-fit: cover;
+
+}
+
+.wrapper-detail-delivery {
+  width: 80%;
+  font-size: 25px;
+  line-height: 138.84%;
+  letter-spacing: 0.02em;
+
+}
+
+.wrapper-detail-product-content-right {
+  width: 50%;
+}
+
+.wrapper-detail-product-content-right-name {
+  font-size: 65px;
+  line-height: 98px;
+  margin: 3% 0;
+}
+
+.wrapper-detail-product-content-right-price {
+  font-size: 40px;
+  line-height: 50px;
+  margin: 3% 0;
+  align-self: center;
+
+}
+
+.wrapper-detail-product-content-right-desc {
+  font-size: 25px;
+  line-height: 138.84%;
+  margin: 3% 0;
+  width: 80%;
+
+}
+
+.wrapper-price-qty {
+  margin-top: 10%;
+}
+
+.wrapper-selection {
+  display: flex;
+  flex-direction: column;
+}
+
+.costum-input {
+  margin-bottom: 5%;
+  padding: 2%;
+  border-radius: 8px;
+  background-color: white;
+  outline: none;
+}
+
+.wrapper-count-qty {
+  display: flex;
+  width: 40%;
+  border-radius: 10px;
+  margin: 5% 0;
+}
+
+.wrapper-count-qty-btn-plus {
+  width: 50%;
+  padding: 4%;
+  border: none;
+  background-color: #fff;
+  border-top: 1px solid #9F9F9F;
+  border-left: 1px solid #9F9F9F;
+  border-bottom: 1px solid #9F9F9F;
+  border-radius: 10px 0px 0px 10px;
+
+}
+
+.wrapper-count-qty-btn-min {
+  width: 50%;
+  padding: 4%;
+  border: none;
+  background-color: #fff;
+  border-top: 1px solid #9F9F9F;
+  border-right: 1px solid #9F9F9F;
+  border-bottom: 1px solid #9F9F9F;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.wrapper-count-qty-text {
+  padding: 4%;
+  border-top: 1px solid #9F9F9F;
+  border-bottom: 1px solid #9F9F9F;
+
+}
+
+.wrapper-btn-checkout {
+  border: none;
+  border-radius: 18px;
+  width: 100%;
+  background-color: #6A4029;
+  color: #fff;
+  padding: 2%;
+  font-size: 25px;
+  line-height: 38px;
+}

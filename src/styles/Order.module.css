@@ -1,0 +1,34 @@
+.wrapper-order-page {
+  padding: 3% 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -85%;
+  position: relative;
+}
+
+.order-page-left-text {
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 8%;
+}
+
+.order-page-left-content {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.order-page-left-content-header {
+  font-size: 24px;
+  text-align: center;
+  padding: 8%;
+}
+
+.order-page-left-content-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 7%;
+}

@@ -1,0 +1,144 @@
+.login{
+  margin: 0;
+  padding: 0;
+}
+.wrapper-login{
+  display: flex;
+  height: 120vh ;
+}
+.wrapper-bg-auth{
+  height: 100%;
+  width: 100%;
+  /* margin: 0 !important; */
+  object-fit: cover;
+}
+.login-left{
+  width:55%;
+}
+.login-right{
+  width: 45%;
+  padding: 2% 4%;
+
+}
+.login-right-header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8%;
+}
+.login-right-header-left{
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.login-right-header-right{
+  width: 25%;
+}
+.btn-to-signup{
+  width: 100%;
+  background-color: #FFBA33;
+  border-radius: 18px;
+  border: #FFBA33 1px solid;
+  padding: 10% 0;
+  box-shadow:0 5px 20px #ffbb337a;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.text-login{
+  font-size: 35px;
+  line-height: 41px;
+  margin: 5%;
+  color: #6A4029;
+
+}
+.wrapper-login-form{
+  margin: 1% 10% ;
+}
+.field-email{
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.field-pass{
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.label-form{
+  margin-bottom: 3%;
+  font-size: 20px;
+  line-height: 24px;
+}
+.form-input-login{
+  /* height: 15%; */
+  padding: 3% ;
+  border-radius: 18px;
+  border: 1px solid #b3b1b1;
+}
+.text-forgot-pass{
+  margin-bottom: 5%;
+}
+.btn-login{
+  margin-bottom: 5%;
+  padding: 3% 0;
+  border-radius: 18px;
+  border: 2px solid #FFBA33;
+  background-color: #FFBA33;
+  font-size: 20px;
+  line-height: 25px;
+  color: #6A4029;
+  box-shadow: 0 5px 20px rgba(255, 187, 51, 0.492);
+}
+.btn-google{
+  margin-bottom: 5%;
+  padding: 3% 0;
+  border-radius: 18px;
+  border: 2px solid #ffffff;
+  background-color: #fffffe;
+  font-size: 20px;
+  line-height: 25px;
+  color: #6A4029;
+  box-shadow: 0 5px 20px rgba(200, 200, 197, 0.492);
+}
+.member-card{
+  background-color: rgb(255, 255, 255);
+  margin: -9% 10% 0;
+  position: relative;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(159, 158, 158, 0.439);
+  padding: 4% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.member-card-left{
+width: 35%;
+}
+.member-card-left-header{
+  font-size: 35px;
+  line-height: 45px;
+  margin-bottom: 4%;
+}
+.member-card-left-sub{
+  font-size: 16px;
+  line-height: 30px;
+
+}
+.member-card-right{
+  width: 20%;
+  align-self: center;
+  }
+
+.btn-member-card{
+  width: 100%;
+  padding: 5%;
+  border-radius: 18px;
+  border: 1px solid #FFBA33;
+  background-color: #FFBA33;
+  color: #6A4029;
+  box-shadow:0 5px 20px #ffbb337a;
+
+}
