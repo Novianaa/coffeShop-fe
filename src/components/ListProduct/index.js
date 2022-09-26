@@ -16,7 +16,6 @@ export default function ListProduct() {
   useEffect(() => {
     dispatch(GetProducts(category.category_id))
   }, [category.category_id, dispatch])
-  console.log(data, category.category_id, 'dsdsd')
   return (
     <>
       <div className={`${styles['wrapper-list-product']} container`}>

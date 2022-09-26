@@ -8,11 +8,10 @@ import logger from 'redux-logger' //addthis
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ["product", "order"]
+  whitelist: ["product", "order", 'user']
 }
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
-
 let store = createStore(persistedReducer, applyMiddleware(thunk, logger))
 let persistor = persistStore(store)
 export {

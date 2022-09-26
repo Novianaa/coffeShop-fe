@@ -18,6 +18,7 @@ export default function FormLogin() {
         console.log(res)
         Cookie.set("token", res.data.data.token)
         Cookie.set("user_id", res.data.data.user_id)
+        Cookie.set("email", res.data.data.email)
         router.push('/')
       }).catch((err) => {
         console.log(err)

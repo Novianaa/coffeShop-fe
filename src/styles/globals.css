@@ -113,15 +113,20 @@ a {
   font-size: 28px;
 }
 
+.photo-profile-navbar {
+  border-radius: 50px;
+}
+
 /* Navbar User */
 .wrapper-navbar {
   border-bottom: 1px solid #9F9F9F;
-
 }
+
+
 
 .navbar {
   display: flex;
-  margin: 2% 0;
+  margin: 1% 0;
 }
 
 .navbar-left {

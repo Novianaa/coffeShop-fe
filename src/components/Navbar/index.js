@@ -7,14 +7,37 @@ import("bootstrap/dist/js/bootstrap");
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
-
+import { toast } from 'react-toastify';
+import { useState } from 'react';
+import axios from 'axios';
+import profile from '../../../public/default.png'
 
 export default function Home() {
-  const token = cookies.get("token");
+  const email = cookies.get("email")
+  const token = cookies.get("token")
   const AuthLogout = () => {
-    cookies.remove('user_id'),
-      cookies.remove('token')
+    cookies.remove('user_id')
+    cookies.remove('token')
+    cookies.remove('email')
+    cookies.remove('idOrder')
+
   }
+  let [data, setData] = useState({})
+  useEffect(() => {
+    axios({
+      method: "GET",
+      url: `http://localhost:8000/api/v1/user/${email}`,
+      headers: {
+        authorization: `Bearer ${token}`
+      },
+    })
+      .then((res) => {
+        console.log(res, '78')
+        setData(res.data.data)
+      }).catch((err) => {
+        console.log(err)
+      })
+  }, [email, token])
 
   return (
     <>
@@ -46,7 +69,7 @@ export default function Home() {
                   <i className="bi bi-chat-right custom-icon-chat" /></div>
                 <div className='dropdown'>
                   <div className="wrapper-photo-profile" role="button" data-bs-toggle='dropdown' aria-expanded="false">
-                    <Image src={logo} alt='profile' className="photo-profile" />
+                    <Image src={profile} alt='profile' className="photo-profile-navbar" width={45} height={45} />
                   </div>
                   <ul className='dropdown-menu' aria-labelledby="dropdownMenuButton1">
                     <li>

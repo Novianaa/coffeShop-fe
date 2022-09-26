@@ -16,8 +16,6 @@ export default function FormRegister() {
     axios.post(`/auth/register`, formRegister)
       .then((res) => {
         console.log(res)
-        // Cookie.set(data, res.data.data)
-        // Cookie.set("user_id", res.data.data.user_id)
         router.push('/login')
       }).catch((err) => {
         console.log(err)

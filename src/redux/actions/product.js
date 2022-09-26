@@ -37,7 +37,7 @@ export const GetProducts = (category_id = 'coffee') => {
       dispatch(GetProductSuccess(result.data.data))
     }
     catch (err) {
-      // console.log(err, 'yuyu')
+      console.log(err, 'yuyu')
       dispatch(ProductError(err.response))
     }
   }

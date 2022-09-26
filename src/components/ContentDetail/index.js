@@ -35,7 +35,7 @@ export default function ContentDetail({ slug }) {
   const router = useRouter()
   const [dataOrder, setDataOrder] = useState({ data: [] })
 
-  const handleOrder = async () => {
+  const handleOrder = async (dataOrder) => {
     const token = Cookies.get("token")
     // e.preventDefault()
     try {
@@ -51,16 +51,18 @@ export default function ContentDetail({ slug }) {
       setDataOrder({
         data: result.data.data
       })
+      Cookies.set("idOrder", result.data.data.id)
       router.push('/order')
-
     }
     catch (err) {
+      console.log(err)
       toast.error(err.response.data.message)
     }
 
   }
 
   console.log(dataOrder, 'sds')
+  console.log(formOrder, 'qqq')
 
   return (
     <>
