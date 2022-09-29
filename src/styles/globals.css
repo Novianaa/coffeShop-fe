@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Rubik:wght@400;500;700&display=swap');
 
+
 @import 'homepage';
 @import 'login';
 @import 'register';
@@ -127,6 +128,7 @@ a {
 .navbar {
   display: flex;
   margin: 1% 0;
+  padding: 0 8%;
 }
 
 .navbar-left {

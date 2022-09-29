@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import logo from '../../../public/coffee1.svg'
 import cookies from "js-cookie";
-import "bootstrap/dist/css/bootstrap.css";
-import("bootstrap/dist/js/bootstrap");
+// import "bootstrap/dist/css/bootstrap.css";
+// import("bootstrap/dist/js/bootstrap");
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
@@ -11,6 +11,8 @@ import { toast } from 'react-toastify';
 import { useState } from 'react';
 import axios from 'axios';
 import profile from '../../../public/default.png'
+import Head from 'next/head';
+import Script from 'next/script';
 
 export default function Home() {
   const email = cookies.get("email")
@@ -41,8 +43,11 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        {/* <Link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossOrigin="anonymous" /> */}
+      </Head>
       <div className='wrapper-navbar'>
-        <div className="container navbar">
+        <div className=" navbar">
           <div className="navbar-left">
             <div><Image alt="logo" src={logo} /></div>
             <div className='name-web rubik-700'>Coffee Shop</div>
@@ -85,6 +90,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossOrigin="anonymous" async strategy="worker" /> */}
     </>
   )
 }
