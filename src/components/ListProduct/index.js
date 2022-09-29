@@ -62,12 +62,12 @@ export default function ListProduct() {
         <div className={`${styles['wrapper-card-menu-product']}`}>
           {data.map((product, index) => {
             return (
-              <Link href={`/product/detail/${product.slug}`} key={product.slug} crossOrigin=''>
+              <Link href={`/product/detail/${product.slug}`} key={product.slug}>
                 <div key={index} name={product.slug} className={`${styles['wrapper-card-menu-product-list']}`}>
 
                   <div className={`${styles['wrapper-image-menu']}`}>
                     <picture>
-                      <img crossOrigin="anonymous" src={`https://novia-coffeeshop-be.vercel.app/static/products/${product.photo}`} alt={product.name} className={`${styles['image-menu']}`} />
+                      <img crossOrigin="anonymous" src={`http://localhost:8000/static/products/${product.photo}`} alt={product.name} className={`${styles['image-menu']}`} />
                     </picture>
                   </div>
                   <div className={`${styles['card-menu-title']} poppins-900`}>

@@ -3,6 +3,6 @@ module.exports = {
   reactStrictMode: true,
   swcMinify: false,
   images: {
-    domains: ["localhost", "https://novia-coffeeshop-be.vercel.app"],
+    domains: ["localhost", "novia-coffeeshop-be.vercel.app"],
   },
 }

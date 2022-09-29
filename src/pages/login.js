@@ -13,7 +13,9 @@ export default function Login() {
         <div className="login">
           <div className="wrapper-login">
             <div className="login-left">
-              <img src='/hero3.png' alt='bg-auth' className="wrapper-bg-auth" />
+              <picture>
+                <img src='/hero3.png' alt='bg-auth' className="wrapper-bg-auth" />
+              </picture>
             </div>
             <div className="login-right">
               <FormLogin />

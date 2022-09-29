@@ -14,7 +14,9 @@ export default function SidePromo() {
         </div>
         <div className={`${styles['wrapper-promo-list']}`}>
           <div className={`${styles['wrapper-promo-list-card']}`}>
-            <img src='/mbak.png' alt='person' />
+            <picture>
+              <img src='/mbak.png' alt='person' />
+            </picture>
             <div className={`${styles['wrapper-name-promo']}`}>
               <div className={`${styles['wrapper-name-promo-title']} rubik-400`}>
                 Happy Mother&apos; Day!
@@ -25,7 +27,9 @@ export default function SidePromo() {
             </div>
           </div>
           <div className={`${styles['wrapper-promo-list-card-sec']}`}>
-            <img src='/om.png' alt='person' />
+            <picture>
+              <img src='/om.png' alt='person' />
+            </picture>
             <div className={`${styles['wrapper-name-promo']}`}>
               <div className={`${styles['wrapper-name-promo-title']} rubik-400`}>
                 Happy Mother&apos; Day!
@@ -36,7 +40,9 @@ export default function SidePromo() {
             </div>
           </div>
           <div className={`${styles['wrapper-promo-list-card-third']}`}>
-            <img src='/mbah.png' alt='person' />
+            <picture>
+              <img src='/mbah.png' alt='person' />
+            </picture>
             <div className={`${styles['wrapper-name-promo']}`}>
               <div className={`${styles['wrapper-name-promo-title']} rubik-400`}>
                 Happy Mother&apos; Day!

@@ -12,7 +12,9 @@ export default function Register() {
         <div className="signup">
           <div className="wrapper-signup">
             <div className="signup-left-reg">
-              <img src='/hero3.png' alt='bg-auth' className="wrapper-bg-auth-reg" />
+              <picture>
+                <img src='/hero3.png' alt='bg-auth' className="wrapper-bg-auth-reg" />
+              </picture>
 
             </div>
             <div className="signup-right">
