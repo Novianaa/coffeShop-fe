@@ -28,7 +28,7 @@ export default function Home() {
   useEffect(() => {
     axios({
       method: "GET",
-      url: `http://localhost:8000/api/v1/user/${email}`,
+      url: `novia-coffeeshop-be.vercel.app/api/v1/user/${email}`,
       headers: {
         authorization: `Bearer ${token}`
       },

@@ -30,7 +30,7 @@ export const PostOrder = (formOrder) => {
       dispatch(OrderRequest())
       const result = await axios({
         method: 'POST',
-        url: `http://localhost:8000/api/v1/order`,
+        url: `novia-coffeeshop-be.vercel.app/api/v1/order`,
         headers: {
           authorization: `Bearer ${token}`
         },
