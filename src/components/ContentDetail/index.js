@@ -115,7 +115,7 @@ export default function ContentDetail({ slug }) {
                     <option value='dine-in' >Dine In</option>
                   </select>
                 </div>
-                <button className={`${styles['wrapper-btn-checkout']} poppins-400`} onClick={() => handleOrder(dataOrder)} crossOrigin=''>Checkout</button>
+                <button className={`${styles['wrapper-btn-checkout']} poppins-400`} onClick={() => handleOrder(dataOrder)}>Checkout</button>
               </div>
             </div>
           </div>
