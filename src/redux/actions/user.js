@@ -27,13 +27,13 @@ export const GetUser = (email = '') => async (dispatch) => {
     dispatch(UserRequest())
     const result = await axios({
       method: 'GET',
-      url: `novia-coffeeshop-be.vercel.app/api/v1/user/${email}`,
+      url: `https://novia-coffeeshop-be.vercel.app/api/v1/user/${email}`,
       headers: {
         authorization: `Bearer ${token}`
       },
     })
     console.log(result, '12121')
-    console.log(`novia-coffeeshop-be.vercel.app/api/v1/user/${email}`)
+    console.log(`https://novia-coffeeshop-be.vercel.app/api/v1/user/${email}`)
     dispatch(GetUserSuccess(result.data.data))
   }
   catch (err) {

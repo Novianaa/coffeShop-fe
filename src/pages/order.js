@@ -124,7 +124,7 @@ export async function getServerSideProps(context) {
   //   Content- Type: 'application/json',
 
   // });
-  const res = await fetch(`novia-coffeeshop-be.vercel.app/api/v1/order/${id}`, {
+  const res = await fetch(`https://novia-coffeeshop-be.vercel.app/api/v1/order/${id}`, {
     method: 'GET',
     headers: { authorization: `Bearer ${token}` },
   })

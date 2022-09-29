@@ -28,7 +28,7 @@ export const GetProducts = (category_id = 'coffee') => {
       dispatch(ProductRequest())
       const result = await axios({
         method: 'GET',
-        url: `novia-coffeeshop-be.vercel.app/api/v1/product/${category_id}`,
+        url: `https://novia-coffeeshop-be.vercel.app/api/v1/product/${category_id}`,
         headers: {
           authorization: `Bearer ${token}`
         },
@@ -49,7 +49,7 @@ export const GetDetailsProduct = (slug) => {
       dispatch(ProductRequest())
       const result = await axios({
         method: 'GET',
-        url: `novia-coffeeshop-be.vercel.app/api/v1/product/detail/${slug}`,
+        url: `https://novia-coffeeshop-be.vercel.app/api/v1/product/detail/${slug}`,
         headers: {
           authorization: `Bearer ${token}`
         },

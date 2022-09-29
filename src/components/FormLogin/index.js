@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Logo from '/public/coffee1.svg'
-import axios from '../../utils/axios'
+import axios from "axios"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import Cookie from "js-cookie"
@@ -13,7 +13,7 @@ export default function FormLogin() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post(`/auth/login`, formLogin)
+    axios.post(`https://novia-coffeeshop-be.vercel.app/api/v1/auth/login`, formLogin)
       .then((res) => {
         console.log(res)
         Cookie.set("token", res.data.data.token)

@@ -41,7 +41,7 @@ export default function ContentDetail({ slug }) {
     try {
       const result = await axios({
         method: 'POST',
-        url: `novia-coffeeshop-be.vercel.app/api/v1/order`,
+        url: `https://novia-coffeeshop-be.vercel.app/api/v1/order`,
         headers: {
           authorization: `Bearer ${token}`
         },
