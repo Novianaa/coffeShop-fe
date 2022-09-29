@@ -54,7 +54,7 @@ export default function FormLogin() {
           <input type="password" className=" form-input-login" name="password" onChange={handleChangeText} />
         </div>
         <div className="text-forgot-pass rubik-600">Forgot password?</div>
-        <button className="btn-login w-100 rubik-600" onClick={handleSubmit}>
+        <button className="btn-login w-100 rubik-600" onClick={handleSubmit} crossOrigin=''>
           Login
         </button>
         <button type="button" className="btn-google w-100 bi bi-google" > Login with Google</button>

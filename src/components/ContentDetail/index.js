@@ -77,7 +77,7 @@ export default function ContentDetail({ slug }) {
               <div className={`${styles['wrapper-detail-product-content-left']}`}>
                 <div className={`${styles['wrapper-detail-product-photo-ex']}`}>
                   <picture>
-                    <img src={`http://localhost:8000/static/products/${detail.photo}`} alt='coldbrew' className={`${styles['wrapper-detail-product-photo']}`} />
+                    <img src={`https://novia-coffeeshop-be.vercel.app/static/products/${detail.photo}`} alt='coldbrew' className={`${styles['wrapper-detail-product-photo']}`} />
                   </picture>
                 </div>
 
@@ -115,7 +115,7 @@ export default function ContentDetail({ slug }) {
                     <option value='dine-in' >Dine In</option>
                   </select>
                 </div>
-                <button className={`${styles['wrapper-btn-checkout']} poppins-400`} onClick={() => handleOrder(dataOrder)}>Checkout</button>
+                <button className={`${styles['wrapper-btn-checkout']} poppins-400`} onClick={() => handleOrder(dataOrder)} crossOrigin=''>Checkout</button>
               </div>
             </div>
           </div>
