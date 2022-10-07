@@ -77,7 +77,7 @@ export default function ContentDetail({ slug }) {
               <div className={`${styles['wrapper-detail-product-content-left']}`}>
                 <div className={`${styles['wrapper-detail-product-photo-ex']}`}>
                   <picture>
-                    <img src={`https://novia-coffeeshop-be.vercel.app/static/products/${detail.photo}`} alt='coldbrew' className={`${styles['wrapper-detail-product-photo']}`} />
+                    <img src={`https://novia-coffeeshop-be.vercel.app/static/${detail.photo}`} alt='coldbrew' className={`${styles['wrapper-detail-product-photo']}`} />
                   </picture>
                 </div>
 

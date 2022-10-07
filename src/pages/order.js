@@ -27,7 +27,7 @@ export default function Order(props) {
               <div className={`${styles["order-page-left-content-main"]}`}>
                 <div>
                   <picture>
-                    <img src={`http://localhost:8000/static/products/2022-07-31T20-17-00.992Zpistachio.webp`} alt='product-image' width={100} height={100} className={`${styles["order-page-left-img"]}`} />
+                    <img src={`http://novia-coffeeshop-be.vercel.app/static/2022-07-31T20-17-00.992Zpistachio.webp`} alt='product-image' width={100} height={100} className={`${styles["order-page-left-img"]}`} />
                   </picture>
                 </div>
                 <div className={`${styles["order-page-left-content-text"]}`}>
